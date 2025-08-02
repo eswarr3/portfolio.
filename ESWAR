@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ESWAR PORTFOLIO</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+      
+    }
+    header, footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      background-image: url('https://lh3.googleusercontent.com/geougc-cs/AB3l90C5ajs85itUUtFo0gp9xRMqheua_NulBDmUdF9LSoZ3dwuLDmZVKaEH0naeWry4Mm2U2PGhM1d_FFvKW1D5-ebImT_gkl0i2WbD_pMDCs-t6jXcZc9R4_4yGvC_pO3ac4scdhVmTg=w404-h404-p');
+      background-repeat: no-repeat;
+      background-position:leftside;
+      background-attachment:center;
+      
+      
+    }
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem 0;
+    }
+    h1,h2 {
+     color: #222;
+    
+    }
+    .section {
+      margin-bottom: 3rem;
+    }
+    .skills div, .education-entry, .experience-entry , .Project{
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .progress {
+      background: #eee;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .progress-bar {
+      height: 10px;
+      background-color: #007acc;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      padding: 0.8rem 1.5rem;
+      background-color: #007acc;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ESWAR </h1>
+  <p>Hi ! <br><br> I'm   ESWAR </p>
+  <a href="#" style="color: #fff; text-decoration: underline;"> <br>Download Resume</a>
+</header>
+
+<div class="container">
+  
+  <section class="section about">
+    <h2>About Me</h2>
+    <p>I am a Professional Python and Java Developer. I also front-end development. </p>
+  </section>
+
+  <section class="section contact-info">
+    <div><strong>📞 Phone:</strong> 8807223334</div>
+    <div><strong>✉️ Email:</strong> iamreswar@gmail.com</div>
+    <div><strong>🌐 Website:</strong> www.linkedin.com/in/reswar</div>
+  </section>
+
+  <section class="section education">
+    <h2>Education</h2>
+    <div class="education-entry">
+      <h3>2020 - 2024:  Bachelor Of Engineering in ECE</h3>
+      <p>S.A Enginnering College (Anna University)</p>
+    </div>
+    <div class="education-entry">
+      <h3>2017 - 2020:  Diploma in ECE</h3>
+      <p>Sri Sai Ram Polytechnic College </p>
+    </div>
+    <div class="education-entry">
+      <h3>20016 - 20017:  10 'th</h3>
+      <p>SSLC</p>
+    </div>
+  </section>
+
+  <section class="section skills">
+    <h2>Skills</h2>
+    <div><strong>Python</strong></div>
+    <div><strong>Java</strong></div>
+    <div><strong>HTML 5</strong></div>
+    <div><strong>CSS</strong></div>
+    <div><strong>Javascript</strong></div>
+    <div><strong> SQL</strong></div>
+  </section>
+
+  <section class="section experience">
+    <h2>Experience</h2>
+    <div class="experience-entry">
+      <h3>2024 - 2025: Business Development Officer</h3>
+      <p>Equitas Small Finance Bank </p>
+    </div>
+  </section>
+
+  <section class="section Project">
+    <h2>Project</h2>
+    <div class="Project"><strong>Animal alert System</strong>
+    <p>  "This is a surveillance and monitoring system that is very useful for forest areas.<br>
+         Animals are detected automatically by the camera, and a message is sent to a mobile <br>
+         phone indicating the type and number of animals detected." </p>
+    </div>
+
+    <div class="Project"><strong>My Personal Portfolio</strong>
+        <p>  "I developed a personal portfolio website using HTML, CSS, and JavaScript.
+            The website includes sections like Home, About, Projects, and Contact,etc.
+            It features a responsive and user-friendly design for all devices.
+            A contact form allows visitors to send messages directly.
+            Form data is sent to a backend and stored in a SQL database." </p>
+        </div>
+  </section>
+
+  <section class="section contact-form">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Name*" required />
+      <input type="email" placeholder="Email*" required />
+      <input type="text" placeholder="Contact No" />
+      <textarea rows="5" placeholder="Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+</div>
+
+<footer>
+  <p>© Copyright Eswar . Designed and developed by Eswar.</p>
+</footer>
+
+</body>
+</html>
